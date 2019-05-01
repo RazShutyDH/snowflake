@@ -1,0 +1,41 @@
+{
+    "displayName": "Market",
+    "category": "E",
+    "description": "Understands market competition and dynamics, and applies research, testing and validation to learn about needs and product opportunities",
+    "milestones": [{
+      "points": 1,
+      "summary": "",
+      "signals": [
+      ],
+      "examples": [
+      ]
+    }, {
+      "points": 4,
+      "summary": "",
+      "signals": [
+      ],
+      "examples": [
+      ]
+    }, {
+      "points": 8,
+      "summary": "",
+      "signals": [
+      ],
+      "examples": [
+      ]
+    }, {
+      "points": 16,
+      "summary": "",
+      "signals": [
+      ],
+      "examples": [
+      ]
+    }, {
+      "points": 24,
+      "summary": "",
+      "signals": [
+      ],
+      "examples": [
+      ]
+    }]
+  }

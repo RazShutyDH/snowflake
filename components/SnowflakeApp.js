@@ -59,11 +59,12 @@ const emptyState = (): SnowflakeAppState => {
       'CAREER_DEVELOPMENT': 0,
       'ORG_DESIGN': 0,
       'WELLBEING': 0,
-      'ACCOMPLISHMENT': 0,
       'MENTORSHIP': 0,
-      'EVANGELISM': 0,
       'RECRUITING': 0,
-      'COMMUNITY': 0
+      'COMMUNITY': 0,
+      'EXPERIMENTATION': 0,
+      'MARKET': 0,
+      'STRATEGY': 0
     },
     focusedTrackId: 'SERVERS'
   }
@@ -84,11 +85,12 @@ const defaultState = (): SnowflakeAppState => {
       'CAREER_DEVELOPMENT': 0,
       'ORG_DESIGN': 0,
       'WELLBEING': 0,
-      'ACCOMPLISHMENT': 0,
       'MENTORSHIP': 0,
-      'EVANGELISM': 0,
       'RECRUITING': 0,
-      'COMMUNITY': 0
+      'COMMUNITY': 0,
+      'EXPERIMENTATION': 0,
+      'MARKET': 0,
+      'STRATEGY': 0
     },
     focusedTrackId: 'SERVERS'
   }

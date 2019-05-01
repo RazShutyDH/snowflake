@@ -1,0 +1,41 @@
+{
+    "displayName": "Experimentation",
+    "category": "E",
+    "description": "Exploits experimentation to benefit innovative efforts and opportunities exploration",
+    "milestones": [{
+      "points": 1,
+      "summary": "",
+      "signals": [
+      ],
+      "examples": [
+      ]
+    }, {
+      "points": 3,
+      "summary": "",
+      "signals": [
+      ],
+      "examples": [
+      ]
+    }, {
+      "points": 6,
+      "summary": "",
+      "signals": [
+      ],
+      "examples": [
+      ]
+    }, {
+      "points": 12,
+      "summary": "",
+      "signals": [
+      ],
+      "examples": [
+      ]
+    }, {
+      "points": 20,
+      "summary": "",
+      "signals": [
+      ],
+      "examples": [
+      ]
+    }]
+  }

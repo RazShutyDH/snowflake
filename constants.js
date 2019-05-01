@@ -10,16 +10,18 @@ import INITIATIVE from './trackData/initiative.json'
 import CAREER_DEVELOPMENT from './trackData/careerDevelopment.json'
 import ORG_DESIGN from './trackData/orgDesign.json'
 import WELLBEING from './trackData/wellbeing.json'
-import ACCOMPLISHMENT from './trackData/accomplishment.json'
 import MENTORSHIP from './trackData/mentorship.json'
-import EVANGELISM from './trackData/evangelism.json'
 import RECRUITING from './trackData/recruiting.json'
 import COMMUNITY from './trackData/community.json'
+import EXPERIMENTATION from './trackData/experimentation.json'
+import MARKET from './trackData/market.json'
+import STRATEGY from './trackData/strategy.json'
 
 export type TrackId = 'WEB_CLIENT' | 'FOUNDATIONS' | 'SERVERS' |
   'PROJECT_MANAGEMENT' | 'COMMUNICATION' | 'CRAFT' | 'INITIATIVE' |
-  'CAREER_DEVELOPMENT' | 'ORG_DESIGN' | 'WELLBEING' | 'ACCOMPLISHMENT' |
-  'MENTORSHIP' | 'EVANGELISM' | 'RECRUITING' | 'COMMUNITY'
+  'CAREER_DEVELOPMENT' | 'ORG_DESIGN' | 'WELLBEING' |
+  'MENTORSHIP' | 'RECRUITING' | 'COMMUNITY' |
+  'EXPERIMENTATION' | 'MARKET' | 'STRATEGY'
 export type Milestone = 0 | 1 | 2 | 3 | 4 | 5
 
 export type MilestoneMap = {
@@ -33,11 +35,12 @@ export type MilestoneMap = {
   'CAREER_DEVELOPMENT': Milestone,
   'ORG_DESIGN': Milestone,
   'WELLBEING': Milestone,
-  'ACCOMPLISHMENT': Milestone,
   'MENTORSHIP': Milestone,
-  'EVANGELISM': Milestone,
   'RECRUITING': Milestone,
-  'COMMUNITY': Milestone
+  'COMMUNITY': Milestone,
+  'EXPERIMENTATION': Milestone,
+  'MARKET': Milestone,
+  'STRATEGY': Milestone,
 }
 export const milestones = [0, 1, 2, 3, 4, 5]
 
@@ -48,7 +51,8 @@ export const titles = [
   {label: 'Tech Leader', minPoints: 88, maxPoints: 115},
   {label: 'Engineering Manager', minPoints: 88, maxPoints: 115},
   {label: 'Software Architect', minPoints: 116},
-  {label: 'Head of Engineering', minPoints: 116}
+  {label: 'Head of Engineering', minPoints: 116},
+  {label: 'Product Manager', minPoints: 130 }
 ]
 
 export const pointsToLevels = {
@@ -91,18 +95,20 @@ type Tracks = {|
   'CAREER_DEVELOPMENT': Track,
   'ORG_DESIGN': Track,
   'WELLBEING': Track,
-  'ACCOMPLISHMENT': Track,
   'MENTORSHIP': Track,
-  'EVANGELISM': Track,
   'RECRUITING': Track,
-  'COMMUNITY': Track
+  'COMMUNITY': Track,
+  'EXPERIMENTATION': Track,
+  'MARKET': Track,
+  'STRATEGY': Track
 |}
 
 export const tracks: Tracks = {
                                 WEB_CLIENT, SERVERS, FOUNDATIONS, 
                                 PROJECT_MANAGEMENT, COMMUNICATION, CRAFT, INITIATIVE, 
-                                CAREER_DEVELOPMENT, ORG_DESIGN, WELLBEING, ACCOMPLISHMENT,
-                                MENTORSHIP, EVANGELISM, RECRUITING, COMMUNITY
+                                CAREER_DEVELOPMENT, ORG_DESIGN, WELLBEING,
+                                MENTORSHIP, RECRUITING, COMMUNITY,
+                                EXPERIMENTATION, MARKET, STRATEGY
                               };
 
  
@@ -119,7 +125,7 @@ export const categoryPointsFromMilestoneMap = (milestoneMap: MilestoneMap) => {
   trackIds.forEach((trackId) => {
     const milestone = milestoneMap[trackId]
     const categoryId = tracks[trackId].category
-    let currentPoints = pointsByCategory.get(categoryId) || 0
+      let currentPoints = pointsByCategory.get(categoryId) || 0
     if (milestone === 0){
       pointsByCategory.set(categoryId, currentPoints + 0)
     }
@@ -147,7 +153,7 @@ export const totalPointsFromMilestoneMap = (milestoneMap: MilestoneMap): number 
 
 export const categoryColorScale = d3.scaleOrdinal()
   .domain(categoryIds)
-  .range(['#007DA4', '#C4D600', '#FB8B24', '#D90368'])
+    .range(['#8ac384', '#f3c65e', '#f78c63', '#6b8ba3', '#ba5479'])
 
 
 export const eligibleTitles = (milestoneMap: MilestoneMap): string[] => {

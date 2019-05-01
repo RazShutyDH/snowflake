@@ -1,0 +1,41 @@
+{
+    "displayName": "Strategy",
+    "category": "E",
+    "description": "Takes the market competition, technological constraints and innovation opportunities into account and maintains threads between short-term and long-term goals",
+    "milestones": [{
+      "points": 2,
+      "summary": "",
+      "signals": [
+      ],
+      "examples": [
+      ]
+    }, {
+      "points": 4,
+      "summary": "",
+      "signals": [
+      ],
+      "examples": [
+      ]
+    }, {
+      "points": 8,
+      "summary": "",
+      "signals": [
+      ],
+      "examples": [
+      ]
+    }, {
+      "points": 16,
+      "summary": "",
+      "signals": [
+      ],
+      "examples": [
+      ]
+    }, {
+      "points": 32,
+      "summary": "",
+      "signals": [
+      ],
+      "examples": [
+      ]
+    }]
+  }
