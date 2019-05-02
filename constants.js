@@ -51,8 +51,7 @@ export const titles = [
   {label: 'Tech Leader', minPoints: 88, maxPoints: 115},
   {label: 'Engineering Manager', minPoints: 88, maxPoints: 115},
   {label: 'Software Architect', minPoints: 116},
-  {label: 'Head of Engineering', minPoints: 116},
-  {label: 'Product Manager', minPoints: 130 }
+  {label: 'Head of Engineering', minPoints: 116}
 ]
 
 export const pointsToLevels = {
