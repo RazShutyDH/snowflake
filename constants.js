@@ -48,10 +48,12 @@ export const titles = [
   {label: 'Junior Software Engineer', minPoints: 0, maxPoints: 24},
   {label: 'Software Engineer', minPoints: 25, maxPoints: 53},
   {label: 'Senior Software Engineer', minPoints: 54, maxPoints: 87},
-  {label: 'Tech Leader', minPoints: 88, maxPoints: 115},
-  {label: 'Engineering Manager', minPoints: 88, maxPoints: 115},
-  {label: 'Software Architect', minPoints: 116},
-  {label: 'Head of Engineering', minPoints: 116}
+  {label: 'Tech Leader', minPoints: 88, maxPoints: 159},
+  {label: 'Engineering Manager', minPoints: 88, maxPoints: 159},
+  {label: 'Product Owner', minPoints: 88, maxPoints: 159},
+  {label: 'Software Architect', minPoints: 160},
+  {label: 'Head of Engineering', minPoints: 160},
+  {label: 'Product Manager', minPoints: 160 }
 ]
 
 export const pointsToLevels = {
@@ -70,7 +72,7 @@ export const pointsToLevels = {
   '160': '5.2'
 }
 
-export const maxLevel = 192
+export const maxLevel = 1000
 
 export type Track = {
   displayName: string,
@@ -142,7 +144,7 @@ export const totalPointsFromMilestoneMap = (milestoneMap: MilestoneMap): number 
   var sum = 0;
   trackIds.map(trackId => {
     const milestone = milestoneMap[trackId]
-    if (milestone > 0) {
+      if (milestone > 0) {
       sum = sum + tracks[trackId].milestones[milestone-1].points
     }
   })
@@ -156,7 +158,7 @@ export const categoryColorScale = d3.scaleOrdinal()
 
 
 export const eligibleTitles = (milestoneMap: MilestoneMap): string[] => {
-  const totalPoints = totalPointsFromMilestoneMap(milestoneMap)
+    const totalPoints = totalPointsFromMilestoneMap(milestoneMap)
   var titleList = titles.filter(title => (title.minPoints === undefined || totalPoints >= title.minPoints)
                              && (title.maxPoints === undefined || totalPoints <= title.maxPoints))
     .map(title => title.label)
