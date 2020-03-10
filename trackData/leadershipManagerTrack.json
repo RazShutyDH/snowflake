@@ -6,57 +6,72 @@
       "points": 1.5,
       "summary": "M1",
       "signals": [
-        "Aligns with other teams on project scope, domain and boundaries",
-        "Analyzes and identifies possible project delays and reports to stakeholders",
-        "Takes ownership and responsibility for organizational practices and processes and their continuous improvement",
-        "Able to decrypt unclear stakeholder requirements and drives for clarity to ensure right problem is addressed"
+        "Ensures team engagement by incorporating ideas from the team",
+        "Mentorship - ability to successfully transfer knowledge --> Mentorship - you ensure knowledge transfer is happening in your team and there's no bus factor",
+        "Mentorship - you foster a mentorship culture, where the ICs in the team are empowered and engaged in giving each other support",
+        "Able to handle pressure",
+        "Able to grow and retain a strong team",
+        "You are a humble leader, you are not afraid to escalate and ask for help from you manager/peers/people you manage",
+        "You are a servent leader, you act as the voice of your team, represent them and their needs and you take care of their well-being"
+
        ],
       "examples": [
-        "Tasks prioritization together with product and business, focusing on creating value",
-        "Reviews epics and projects critically and ensures they are appropriately broken down, prioritised and well understood by the team"
+        "Grows the team and ensures smooth hiring and onboarding process",
+        "Helps team members to improve with feedback and development plans",
+        "Analyses and improves team productivity based on KPIs",
+        "Stakeholder management --> You maintain good relationship with your stakeholders based on mutual respect for example: You effectivly communicate with you stakeholders, keeping them in the loop and mitigate issues using transaprancy and open communication ",
+        "Pragmatism, enabling a culture focused on delivering solutions --> You foster a culture focused on delivering solutions and pragmatism"
       ]
     },
     {
       "points": 4.5,
       "summary": "M2",
       "signals": [
-        "Often helps refine roadmaps across teams based on technical strategy & constraints",
-        "Focuses on simplification of systems and processes to ensure fast and reliable delivery of our products",
-        "Takes ownership and responsibility for organizational practices and processes and their continuous improvement"
-            ],
+        "Fosters collaboration and knowledge sharing between teams",
+        "Able to inspire others -->You inspire others, You are a role model to ICs wanting to grow in M track and a role model to M1s in the org",
+        "High cultural awareness --> You understand what is the culture that your team needs to get the job done and you interativly adjust your culture using positive reinfrocmenets, hiring the right people that fit and improves the culture",
+        "Able to attract strong talent and spot & proactively retain high performers",
+        "Fosters an open and inclusive culture ",
+        "Able to communicate efficiently, including conflict resolution, across stakeholders and teams",
+        "Leads by example"
+        
+                    ],
       "examples": [
-        "Works across teams to recommend solutions to identified gaps  --> Leading execution of cross-teams initiatives ",
-        "Translates strategy set by M3/M4 into team OKRs",
-        "Helps to define & create new product abilities by changing technical strategy or constraints"
+        "Builds and improves strong relationships with engineers and managers across the organization as well as relevant business stakeholders for several teams; leverages relationships to better plan for and position teams",
+        "Jumps in to help when critical incidents happen even though not on-call",
+        "Proactivley improving operation excellence by recommeding initiaves and simplifcations",
+        "You foster a mentorship culture where other Ms in the team are empopwered and enaged in giving each other support",
+        "You support and help grow other managers in the team, sharing best practices and being a role model"
       ]
     },
     {
       "points": 9,
       "summary": "M3",
       "signals": [
-        "Ensures the team follows best practices and procedures to deliver global solutions",
-        "Ability to focus on the core, separating the noise from the essentials to deliver simple, pragmatic solutions"
-        ],  
+        "Ability to communicate and present to stakeholders from different departments ",
+        "Strong business acumen"
+
+      ],  
       "examples": [
-        "Maintains close connections with technology stakeholders from different entities across regions where applicable",
-        "Maintains close connections with technology peers from different departments"      
+        "Sets team strategy with M4",
+        "Strategic thinking --> Strategic thinking : Sets technical objectives to the teams / managers to make sure DH business growth/potential can be supported by the tech side"
     ]
     },
     {
       "points": 18,
       "summary": "M4",
       "signals": [
-        "Typically budget owner",
-        "Ability to anticipate and mitigate risks (especially around security)",
-        "Maximises impact for customers in everything they do",
-        "Strongly oriented towards goals and ensures several teams are continuously working towards their goals"
-    ],
+        "Takes ownership of decisions made in the organization",
+        "Strategic thinking -->  Strategic thinking : You can read the market trends and understand forecoming business requierments and implementing required orgnizational teams to fullfuill them",
+        "Strategic thinking -->  Strategic thinking : Recognizes product opportunities and differentiators in relation to the competition",
+        "Facilitation skills",
+        "Influencing skills ",
+        "Empowers team",
+        "Knows where to deep dive and where to delegate"    
+      ],
       "examples": [
-        "Ensures goals are understood and continuously worked towards across the organization",
-        "Often helps refine roadmaps across teams based on technical strategy & constraints",
-        "Collaborates with entity teams to solve problems at a global scale",
-        "Improves operational excellence accross the organziation"      
-
+        "Sets department strategy in alignment with M5/CTO",
+        "Constantly raises quality of recruiting processes and talent quality"
       ]
     },
     {
