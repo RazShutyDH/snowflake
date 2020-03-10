@@ -6,57 +6,44 @@
       "points": 1.5,
       "summary": "M1",
       "signals": [
-        "Aligns with other teams on project scope, domain and boundaries",
-        "Analyzes and identifies possible project delays and reports to stakeholders",
-        "Takes ownership and responsibility for organizational practices and processes and their continuous improvement",
-        "Able to decrypt unclear stakeholder requirements and drives for clarity to ensure right problem is addressed"
-       ],
+        "Strong communication skills and ability to convince Tribe members and Stakeholders",
+        "Excellent written and oral interpersonal communication skills"
+      ],
       "examples": [
-        "Tasks prioritization together with product and business, focusing on creating value",
-        "Reviews epics and projects critically and ensures they are appropriately broken down, prioritised and well understood by the team"
+        ""
       ]
     },
     {
       "points": 4.5,
       "summary": "M2",
       "signals": [
-        "Often helps refine roadmaps across teams based on technical strategy & constraints",
-        "Focuses on simplification of systems and processes to ensure fast and reliable delivery of our products",
-        "Takes ownership and responsibility for organizational practices and processes and their continuous improvement"
-            ],
+        "You are a known and respected contributer in the DH Tech Blog, You speak in meetups/events and represents DH Tech",
+        "Comfortable around executive team"
+      ],
       "examples": [
-        "Works across teams to recommend solutions to identified gaps  --> Leading execution of cross-teams initiatives ",
-        "Translates strategy set by M3/M4 into team OKRs",
-        "Helps to define & create new product abilities by changing technical strategy or constraints"
+        ""
       ]
     },
     {
       "points": 9,
       "summary": "M3",
       "signals": [
-        "Ensures the team follows best practices and procedures to deliver global solutions",
-        "Ability to focus on the core, separating the noise from the essentials to deliver simple, pragmatic solutions"
+        "Contributes to the management community inside of DH"
         ],  
       "examples": [
-        "Maintains close connections with technology stakeholders from different entities across regions where applicable",
-        "Maintains close connections with technology peers from different departments"      
-    ]
+        ""
+      ]
     },
     {
       "points": 18,
       "summary": "M4",
       "signals": [
-        "Typically budget owner",
-        "Ability to anticipate and mitigate risks (especially around security)",
-        "Maximises impact for customers in everything they do",
-        "Strongly oriented towards goals and ensures several teams are continuously working towards their goals"
-    ],
-      "examples": [
-        "Ensures goals are understood and continuously worked towards across the organization",
-        "Often helps refine roadmaps across teams based on technical strategy & constraints",
-        "Collaborates with entity teams to solve problems at a global scale",
-        "Improves operational excellence accross the organziation"      
-
+        "Contributes to the management community outside of DH",
+        "Ability to represent DH externally",
+        "Strong DH brand ambassador, actively evolving our strong brand"
+        ],
+        "examples": [    
+          ""
       ]
     },
     {
