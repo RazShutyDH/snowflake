@@ -1,50 +1,25 @@
 // @flow
 import * as d3 from 'd3'
-import  WEB_CLIENT from './trackData/frontend.json'
-import SERVERS from './trackData/backend.json'
-import FOUNDATIONS from './trackData/foundations.json'
-import PROJECT_MANAGEMENT from './trackData/projectManagement.json'
-import COMMUNICATION from './trackData/communication.json'
-import CRAFT from './trackData/craft.json'
-import INITIATIVE from './trackData/initiative.json'
-import CAREER_DEVELOPMENT from './trackData/careerDevelopment.json'
-import ORG_DESIGN from './trackData/orgDesign.json'
-import WELLBEING from './trackData/wellbeing.json'
-import ACCOMPLISHMENT from './trackData/accomplishment.json'
-import MENTORSHIP from './trackData/mentorship.json'
-import EVANGELISM from './trackData/evangelism.json'
-import RECRUITING from './trackData/recruiting.json'
-import COMMUNITY from './trackData/community.json'
+import EXECUTION from './trackData/execution.json'
+import LEADERSHIP from './trackData/leadership.json'
+import PERSONAL_EXCELLENCE from './trackData/personalExcellence.json'
+import TECHNICAL_EXCELLENCE from './trackData/technicalExcellence.json'
 
-export type TrackId = 'WEB_CLIENT' | 'FOUNDATIONS' | 'SERVERS' |
-  'PROJECT_MANAGEMENT' | 'COMMUNICATION' | 'CRAFT' | 'INITIATIVE' |
-  'CAREER_DEVELOPMENT' | 'ORG_DESIGN' | 'WELLBEING' | 'ACCOMPLISHMENT' |
-  'MENTORSHIP' | 'EVANGELISM' | 'RECRUITING' | 'COMMUNITY'
+export type TrackId = 'EXECUTION' | 'LEADERSHIP' | 'PERSONAL_EXCELLENCE' | 'TECHNICAL_EXCELLENCE'
 export type Milestone = 0 | 1 | 2 | 3 | 4 | 5
 
 export type MilestoneMap = {
-  'WEB_CLIENT': Milestone,
-  'SERVERS': Milestone,
-  'FOUNDATIONS': Milestone,
-  'PROJECT_MANAGEMENT': Milestone,
-  'COMMUNICATION': Milestone,
-  'CRAFT': Milestone,
-  'INITIATIVE': Milestone,
-  'CAREER_DEVELOPMENT': Milestone,
-  'ORG_DESIGN': Milestone,
-  'WELLBEING': Milestone,
-  'ACCOMPLISHMENT': Milestone,
-  'MENTORSHIP': Milestone,
-  'EVANGELISM': Milestone,
-  'RECRUITING': Milestone,
-  'COMMUNITY': Milestone
+  'EXECUTION': Milestone,
+  'LEADERSHIP': Milestone,
+  'PERSONAL_EXCELLENCE': Milestone,
+  'TECHNICAL_EXCELLENCE': Milestone
 }
 export const milestones = [0, 1, 2, 3, 4, 5]
 
 export const titles = [
-  {label: 'Software Engineer', minPoints: 0, maxPoints: 24},
-  {label: 'Mid-Level Software Engineer', minPoints: 25, maxPoints: 53},
-  {label: 'Senior Software Engineer', minPoints: 54, maxPoints: 87},
+  {label: 'Software Engineer - IC1', minPoints: 0, maxPoints: 24},
+  {label: 'Software Engineer - IC2', minPoints: 25, maxPoints: 53},
+  {label: 'Software Engineer - IC3', minPoints: 54, maxPoints: 87},
   {label: 'Tech Leader', minPoints: 88},
   {label: 'Engineering Manager', minPoints: 88}
 ]
@@ -79,28 +54,14 @@ export type Track = {
 }
 
 type Tracks = {|
-  'WEB_CLIENT': Track,
-  'SERVERS': Track,
-  'FOUNDATIONS': Track,
-  'PROJECT_MANAGEMENT': Track,
-  'COMMUNICATION': Track,
-  'CRAFT': Track,
-  'INITIATIVE': Track,
-  'CAREER_DEVELOPMENT': Track,
-  'ORG_DESIGN': Track,
-  'WELLBEING': Track,
-  'ACCOMPLISHMENT': Track,
-  'MENTORSHIP': Track,
-  'EVANGELISM': Track,
-  'RECRUITING': Track,
-  'COMMUNITY': Track
-|}
+  'EXECUTION': Track,
+  'LEADERSHIP': Track,
+  'PERSONAL_EXCELLENCE': Track,
+  'TECHNICAL_EXCELLENCE': Track
+  |}
 
 export const tracks: Tracks = {
-                                WEB_CLIENT, SERVERS, FOUNDATIONS, 
-                                PROJECT_MANAGEMENT, COMMUNICATION, CRAFT, INITIATIVE, 
-                                CAREER_DEVELOPMENT, ORG_DESIGN, WELLBEING, ACCOMPLISHMENT,
-                                MENTORSHIP, EVANGELISM, RECRUITING, COMMUNITY
+                                 EXECUTION, LEADERSHIP, PERSONAL_EXCELLENCE,TECHNICAL_EXCELLENCE
                               };
 
  
