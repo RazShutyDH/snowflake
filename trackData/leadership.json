@@ -4,68 +4,74 @@
     "description": "Supports the emotional well-being of group members in difficult times, and celebrates their successes",
     "milestones": [{
       "points": 1,
-      "summary": "Uses tools and processes to help ensure colleagues are healthy and happy",
+      "summary": "IC1",
       "signals": [
-        "Keeps confidences unless legally or morally obliged to do otherwise",
-        "Applies the reasonable person principle to others",
-        "Avoids blame and focuses on positive change"
+        "Understand the vision and KPIs of your Squad"
       ],
       "examples": [
-        "Ensured group members were taking enough vacation",
-        "Put themself in another's shoes to understand their perspective",
-        "Checked in with colleague showing signs of burnout"
+        ""
       ]
     }, {
       "points": 3,
-      "summary": "Creates a positive, supportive, engaging team environment for group members",
+      "summary": "IC2",
       "signals": [
-        "Sheds light on other experiences to build empathy and compassion",
-        "Validates ongoing work and sustains motivation",
-        "Proposes solutions when teams get bogged down or lose momentum"
+        "Understands the vision and business KPIs of you Tribe, and drive your Squads KPIs to complition"
       ],
       "examples": [
-        "Coordinated a small celebration for a project launch",
-        "Connected tedious A|B testing project with overall company goals",
-        "Noted a team without a recent win and suggested some easy quick wins"
+        ""
       ]
     }, {
       "points": 6,
-      "summary": "Manages expectations across peers, leads in the org, promotes calm, and prevents consensus building",
+      "summary": "IC3",
       "signals": [
-        "Trains group members to separate stimulus from response",
-        "Maintains a pulse on individual and team morale",
-        "Helps group members approach problems with curiosity"
+        "Mentorship: ability to successfully transfer knowledge",
+        "Able to nagotiate with PM motivation for techincal tasks and drive them to complition"
       ],
       "examples": [
-        "Completed training on transference and counter transference",
-        "Completed training on compromise and negotiation techniques",
-        "Reframed a problem as a challenge, instead of a barrier, when appropriate"
+        "You resolve technical conflicts within the Squad based on logical reasoning ",
+        "Mentors IC1/IC2 engineers",
+        "You drive Tribes KPIs to completion"
       ]
     }, {
       "points": 12,
-      "summary": "Advocates for the needs of teams and group members, and proactively works to calm the organization",
+      "summary": "IC4",
       "signals": [
-        "Ensures team environments are safe and inclusive, proactively",
-        "Grounds group member anxieties in reality",
-        "Tracks team retention actively and proposes solutions to strengthen it"
+        "Fosters a culture of documentation and knowledge sharing across the organization and actively demonstrates these behaviors",
+        "Fosters collaboration and knowledge sharing between teams",
+        "Proactive role in attracting strong talent",
+        "Strong customer focus"
       ],
       "examples": [
-        "Relieved org tension around product direction by providing extra context",
-        "Encouraged group members to focus on what they can control",
-        "Guided people through complex organizational change"
+        "Participates in defining hiring standards for other engineers"
       ]
     }, {
       "points": 20,
-      "summary": "Manages narratives, channels negativity into inspiration and motivation, and protects the entire team",
+      "summary": "IC5",
       "signals": [
-        "Recognizes and points out narratives when appropriate",
-        "Works to reshape narratives from victimization to ownership",
-        "Increases the psychological safety of the entire team"
+        "Raises awareness of engineering achievements and challenges to group management (Presenrting achievements of the team and the motivation in all-hands or company wide tech-talks)",
+        "Helps represent DH externally to attract talent --> The work/blogs/events and respect you have in the tech community attracts talented people to choose to join DH",
+        "Thinks backwards from the customer --> You put the customers/users first you proactivley come up with idaes to improve their lives",
+        "Continuously challenges status quo"
+
       ],
       "examples": [
-        "Converted group member from a problem haver to a problem solver",
-        "Challenged false narrative and redirected to compassion and empathy",
-        "Cultivated and championed a culture of empathy within the entire team"
+        "You dig deeper into incidentes and you solve recurring issues from the root-cause and own it ",
+        "You understand the team's tech stack limitations and you can foresee and come up with better solutions/infra solutions according to expected growth ",
+        "You see bottlenecks in the technical and you proactivley find ways to change/inspire people to follow"
+      ]
+    }, {
+      "points": 40,
+      "summary": "IC6",
+      "signals": [
+        "Able to lead engineers across teams without formal authority",
+        "Helps attract top talent (IC5+)",
+        "Global knowledge sharing, proactively helps teams across the world to get better",
+        "Strong interviewing skills and ability to attract and excite the best candidates --> You interview IC5+ people and can assess properly their skillset and hire the best people available  ",
+        "You coach and train interviewers on how to interview IC3+ candidates and you create new evaluation process for different levels"
+      ],
+      "examples": [
+        "Train Senior Staff members to make better architectural decisions",
+        "You mentor IC3/4/5 and help them reach the next step"
       ]
     }]
   }

@@ -14,7 +14,7 @@ export type MilestoneMap = {
   'PERSONAL_EXCELLENCE': Milestone,
   'TECHNICAL_EXCELLENCE': Milestone
 }
-export const milestones = [0, 1, 2, 3, 4, 5]
+export const milestones = [0, 1, 2, 3, 4, 5, 6]
 
 export const titles = [
   {label: 'Software Engineer - IC1', minPoints: 0, maxPoints: 24},
