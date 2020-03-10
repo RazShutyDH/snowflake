@@ -2,7 +2,7 @@
 
 Snowflake is Medium's tool for planning and supporting our engineers' career development that is now being used by Delivery Hero - Logistics. Our growth tool is hosted [publicly](https://razshutydh.github.io/snowflake/).
 
-![The Lannisters send their regards](https://imgur.com/a/nnXmz8d)
+![The Lannisters send their regards](https://i.imgur.com/5aY3KSK.png)
 
 ## Contributions
 
