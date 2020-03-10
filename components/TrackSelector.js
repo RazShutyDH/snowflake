@@ -23,6 +23,14 @@ class TrackSelector extends React.Component<Props> {
             margin-bottom: 20px;
             margin-left: -3px;
           }
+          thead {
+            width: 90%;
+            border-spacing: 3px;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            margin-left: -3px;
+          }
           .track-selector-value {
             line-height: 35px;
             width: 50px;
@@ -38,6 +46,30 @@ class TrackSelector extends React.Component<Props> {
             font-size: 11px;
           }
         `}</style>
+        <thead>
+          <tr>
+              <th>
+                Technical Excellence
+              </th>
+              <th>
+              </th>
+              <th>
+                Execution
+              </th>
+              <th>
+              </th>
+              <th>
+                Leadership
+              </th>
+              <th>
+              </th>
+              <th>
+                Personal Excellence
+              </th>
+              <th>
+              </th>
+          </tr>
+        </thead>
         <tbody>
           <tr>
             {trackIds.map(trackId => (

@@ -90,7 +90,8 @@ class NightingaleChart extends React.Component<Props> {
                       onClick={() => this.props.handleTrackMilestoneChangeFn(trackId, 0)} 
                       />
                 </g>
-            )})}
+            )
+            })}
           </g>
         </svg>
       </figure>

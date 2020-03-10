@@ -1,27 +1,42 @@
 // @flow
 import * as d3 from 'd3'
 import EXECUTION from './trackData/execution.json'
+import EXECUTION_MANAGEMENT from './trackData/executionManagerTrack.json'
 import LEADERSHIP from './trackData/leadership.json'
+import LEADERSHIP_MANAGEMENT from './trackData/leadershipManagerTrack.json'
 import PERSONAL_EXCELLENCE from './trackData/personalExcellence.json'
+import PERSONAL_MANAGEMENT from './trackData/personalManagerTrack.json'
 import TECHNICAL_EXCELLENCE from './trackData/technicalExcellence.json'
+import TECHNICAL_MANAGEMENT from './trackData/technicalManagerTrack.json'
 
-export type TrackId = 'EXECUTION' | 'LEADERSHIP' | 'PERSONAL_EXCELLENCE' | 'TECHNICAL_EXCELLENCE'
+export type TrackId = 'TECHNICAL_MANAGEMENT' | 'EXECUTION_MANAGEMENT' | 'LEADERSHIP_MANAGEMENT' | 'PERSONAL_MANAGEMENT'
+            |'EXECUTION' | 'LEADERSHIP' | 'PERSONAL_EXCELLENCE' | 'TECHNICAL_EXCELLENCE'
 export type Milestone = 0 | 1 | 2 | 3 | 4 | 5
 
 export type MilestoneMap = {
   'EXECUTION': Milestone,
+  'EXECUTION_MANAGEMENT': Milestone,
   'LEADERSHIP': Milestone,
   'PERSONAL_EXCELLENCE': Milestone,
-  'TECHNICAL_EXCELLENCE': Milestone
+  'TECHNICAL_EXCELLENCE': Milestone,
+  'TECHNICAL_MANAGEMENT' : Milestone, 
+  'EXECUTION_MANAGEMENT' : Milestone, 
+  'LEADERSHIP_MANAGEMENT' : Milestone, 
+  'PERSONAL_MANAGEMENT': Milestone,
 }
 export const milestones = [0, 1, 2, 3, 4, 5, 6]
 
 export const titles = [
-  {label: 'Software Engineer - IC1', minPoints: 0, maxPoints: 24},
-  {label: 'Software Engineer - IC2', minPoints: 25, maxPoints: 53},
-  {label: 'Software Engineer - IC3', minPoints: 54, maxPoints: 87},
-  {label: 'Tech Leader', minPoints: 88},
-  {label: 'Engineering Manager', minPoints: 88}
+  {label: 'Software Engineer - IC1', minPoints: 0, maxPoints: 12},
+  {label: 'Software Engineer - IC2', minPoints: 12, maxPoints: 25},
+  {label: 'Software Engineer - IC3', minPoints: 25, maxPoints: 50},
+  {label: 'Software Engineer - IC4', minPoints: 50, maxPoints: 80},
+  {label: 'Software Engineer - IC5', minPoints: 80, maxPoints: 140},
+  {label: 'Software Engineer - IC6', minPoints: 140},
+  {label: 'Engineering Manager - M1',  minPoints: 50, maxPoints: 80},
+  {label: 'Senior Engineering Manager - M2',  minPoints: 80, maxPoints: 140},
+  {label: 'Director of Engineering - M3',  minPoints: 140, maxPoints: 160},
+  {label: 'Senior Director of Engineering - M4',  minPoints: 160}
 ]
 
 export const pointsToLevels = {
@@ -54,14 +69,20 @@ export type Track = {
 }
 
 type Tracks = {|
-  'EXECUTION': Track,
-  'LEADERSHIP': Track,
-  'PERSONAL_EXCELLENCE': Track,
-  'TECHNICAL_EXCELLENCE': Track
+  'EXECUTION': Tracks,
+  'EXECUTION_MANAGEMENT': Tracks,
+  'LEADERSHIP': Tracks,
+  'PERSONAL_EXCELLENCE': Tracks,
+  'TECHNICAL_EXCELLENCE': Tracks,
+  'TECHNICAL_MANAGEMENT' : Tracks, 
+  'EXECUTION_MANAGEMENT' : Tracks, 
+  'LEADERSHIP_MANAGEMENT' : Tracks, 
+  'PERSONAL_MANAGEMENT': Tracks,
   |}
 
 export const tracks: Tracks = {
-                                 EXECUTION, LEADERSHIP, PERSONAL_EXCELLENCE,TECHNICAL_EXCELLENCE
+                               TECHNICAL_MANAGEMENT, TECHNICAL_EXCELLENCE, EXECUTION_MANAGEMENT, EXECUTION,
+                               LEADERSHIP_MANAGEMENT, LEADERSHIP, PERSONAL_MANAGEMENT, PERSONAL_EXCELLENCE
                               };
 
  
