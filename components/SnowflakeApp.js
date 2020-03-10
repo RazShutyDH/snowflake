@@ -41,6 +41,12 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
     }
   }
 
+  handleClickNew() {
+    window.location.href = '';
+    document.querySelector('.name-input').value = '';
+  }
+  
+
   render() {
     return (
       <main>
@@ -92,6 +98,7 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
             milestoneByTrack={this.state.milestoneByTrack}
             currentTitle={this.state.title}
             setTitleFn={(title) => this.setTitle(title)} />
+
         <TrackSelector
             milestoneByTrack={this.state.milestoneByTrack}
             focusedTrackId={this.state.focusedTrackId}
@@ -127,6 +134,7 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
             Made with ❤️ by <a href="https://medium.engineering" target="_blank">Medium Eng</a>.
             Improvements by <a href="https://deliveryhero.com" target="_blank">Delivery Hero</a>. 
           </div>
+          <button className="btn btn-default" onClick={this.handleClickNew.bind(this)}>reset snowflake</button>
         </div>
         <br></br>
         <br></br>

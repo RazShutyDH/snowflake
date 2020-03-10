@@ -7,8 +7,11 @@ export const emptyState = (): SnowflakeAppState => {
             'LEADERSHIP': 0,
             'EXECUTION': 0,
             'PERSONAL_EXCELLENCE': 0,
-            'TECHNICAL_EXCELLENCE': 0
-
+            'TECHNICAL_EXCELLENCE': 0,
+            'TECHNICAL_MANAGEMENT' : 0, 
+            'EXECUTION_MANAGEMENT' : 0, 
+            'LEADERSHIP_MANAGEMENT' : 0, 
+            'PERSONAL_MANAGEMENT': 0
         },
         focusedTrackId: 'EXECUTION'
     }
@@ -22,7 +25,11 @@ export const defaultState = (): SnowflakeAppState => {
             'LEADERSHIP': 0,
             'EXECUTION': 0,
             'PERSONAL_EXCELLENCE': 0,
-            'TECHNICAL_EXCELLENCE': 0
+            'TECHNICAL_EXCELLENCE': 0,
+            'TECHNICAL_MANAGEMENT' : 0, 
+            'EXECUTION_MANAGEMENT' : 0, 
+            'LEADERSHIP_MANAGEMENT' : 0, 
+            'PERSONAL_MANAGEMENT': 0
         },
         focusedTrackId: 'EXECUTION'
     }
