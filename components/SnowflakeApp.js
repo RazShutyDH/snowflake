@@ -56,7 +56,7 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
           main {
             width: 90%;
             margin: 0 auto;
-            background-color: lavender;
+            background-color: #f2d5dc;
           }
           .name-input {
             border: none;
@@ -125,7 +125,7 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
         <div className="footer" style={{display: 'flex', paddingBottom: '3px'}}>
           <div style={{flex: 1}}>
             Made with ❤️ by <a href="https://medium.engineering" target="_blank">Medium Eng</a>.
-            Improvements by <a href="https://software.wikimedia.de" target="_blank">Wikimedia Germany</a>. 
+            Improvements by <a href="https://deliveryhero.com" target="_blank">Delivery Hero</a>. 
           </div>
         </div>
         <br></br>

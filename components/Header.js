@@ -14,7 +14,7 @@ class Header extends React.PureComponent<Props> {
       <div style={{display: 'flex', justifyContent: 'space-between', paddingRight: '10%'}}>
         <div style={{width: 120}}>
           <div className="aui">
-            <img width="110px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Wikimedia_Deutschland-Logo.svg/512px-Wikimedia_Deutschland-Logo.svg.png"/>
+            <img width="110px" src="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Delivery_Hero_food_delivery_logo.svg/1200px-Delivery_Hero_food_delivery_logo.svg.png"/>
           </div>
         </div>
 
