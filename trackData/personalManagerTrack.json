@@ -4,7 +4,7 @@
     "description": "Develops expertise in server side engineering",
     "milestones": [{
       "points": 1.5,
-      "summary": "M1",
+      "summary": "Engineering Manager - M1",
       "signals": [
         "Strong communication skills and ability to convince Tribe members and Stakeholders",
         "Excellent written and oral interpersonal communication skills"
@@ -15,7 +15,7 @@
     },
     {
       "points": 4.5,
-      "summary": "M2",
+      "summary": "Senior Engineering Manager - M2",
       "signals": [
         "You are a known and respected contributer in the DH Tech Blog, You speak in meetups/events and represents DH Tech",
         "Comfortable around executive team"
@@ -26,7 +26,7 @@
     },
     {
       "points": 9,
-      "summary": "M3",
+      "summary": "Director of Engineering - M3",
       "signals": [
         "Contributes to the management community inside of DH"
         ],  
@@ -36,7 +36,7 @@
     },
     {
       "points": 18,
-      "summary": "M4",
+      "summary": "Senior Director of Engineering - M4",
       "signals": [
         "Contributes to the management community outside of DH",
         "Ability to represent DH externally",
@@ -48,10 +48,11 @@
     },
     {
       "points": 30,
-      "summary": "M5",
+      "summary": "VP of Engineering - M5",
       "signals": [
-        ""
-      ],
+        "Executive level communication skills",
+        "Deep business acumen also beyond tech & product"
+            ],
       "examples": [
         ""
       ]
@@ -59,7 +60,7 @@
       "points": 60,
       "summary": "M6",
       "signals": [
-        "Drive for maximizing impact"
+        ""
       ],
       "examples": [
         ""

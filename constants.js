@@ -89,8 +89,8 @@ type Tracks = {|
     |}
 
 export const tracks: Tracks = {
-                               TECHNICAL_MANAGEMENT, TECHNICAL_EXCELLENCE, EXECUTION_MANAGEMENT, EXECUTION,
-                               LEADERSHIP_MANAGEMENT, LEADERSHIP, PERSONAL_MANAGEMENT, PERSONAL_EXCELLENCE
+                                TECHNICAL_EXCELLENCE, TECHNICAL_MANAGEMENT, EXECUTION, EXECUTION_MANAGEMENT, 
+                                LEADERSHIP, LEADERSHIP_MANAGEMENT, PERSONAL_EXCELLENCE, PERSONAL_MANAGEMENT
                               };
 
  

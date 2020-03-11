@@ -4,7 +4,7 @@
     "description": "Challenges the status quo and effects positive organizational change outside of mandated work",
     "milestones": [{
       "points": 1,
-      "summary": "IC1",
+      "summary": "Engineer I - IC1",
       "signals": [
         "Fast learner, actively seeking feedback",
         "Seeks out mentorship to grow their own experience",
@@ -15,7 +15,7 @@
       ]
     }, {
       "points": 3,
-      "summary": "IC2",
+      "summary": "Engineer II - IC2",
       "signals": [
         "High consistency and reliability in standard of work",
         "Highly self motivated and strong attention to detail",
@@ -26,7 +26,7 @@
       ]
     }, {
       "points": 6,
-      "summary": "IC3",
+      "summary": "Senior Engineer I - IC3",
       "signals": [
         "Able to handle pressure ",
         "Strives to be objective and reflects on their own biases when making decisions; accountability for decision and outcomes"
@@ -36,7 +36,7 @@
       ]
     }, {
       "points": 12,
-      "summary": "IC4",
+      "summary": "Senior Engineer II - IC4",
       "signals": [
         "Strong communication skills and ability to convince Tribe members and Stakeholders",
         "Excellent written and oral interpersonal communication skills"
@@ -46,7 +46,7 @@
       ]
     }, {
       "points": 20,
-      "summary": "IC5",
+      "summary": "Principal Engineer - IC5",
       "signals": [
         "Helps represent DH externally to attract talent --> You are a known and respected contributer in the DH Tech Blog, You speak in meetups/events and represents DH Tech"
       ],
@@ -55,7 +55,7 @@
       ]
     }, {
       "points": 40,
-      "summary": "IC6",
+      "summary": "Senior Principal Engineer - IC6",
       "signals": [
         ""
       ],

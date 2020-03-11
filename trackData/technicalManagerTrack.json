@@ -4,7 +4,7 @@
     "description": "Develops expertise in server side engineering",
     "milestones": [{
       "points": 1.5,
-      "summary": "M1",
+      "summary": "Engineering Manager - M1",
       "signals": [
         "Ensures quality, performance, monitoring, alerting and security using best practices",
         "Proficiency to code in most domain-relevant languages and understanding of their development, inspection, logging and testing stack (dropped OOP to make more generic and inclusive) ",
@@ -16,7 +16,7 @@
     },
     {
       "points": 4.5,
-      "summary": "M2",
+      "summary": "Senior Engineering Manager - M2",
       "signals": [
         "Deep understanding of cloud environment, CI/CD, testing, validation", 
         "Works across teams to recommend solutions to identified gaps  --> Able to find technical solutions for Tribe level problems "
@@ -28,7 +28,7 @@
     },
     {
       "points": 9,
-      "summary": "M3",
+      "summary": "Director of Engineering - M3",
       "signals": [
         "Proactively ensures the highest levels of systems and infrastructure availability across the group"
               ],  
@@ -38,7 +38,7 @@
     },
     {
       "points": 18,
-      "summary": "M4",
+      "summary": "Senior Director of Engineering - M4",
       "signals": [
        "Defines and evolves architecture of the system as a whole"
     ],
@@ -49,7 +49,7 @@
     },
     {
       "points": 30,
-      "summary": "M5",
+      "summary": "VP of Engineering - M5",
       "signals": [
         ""
       ],

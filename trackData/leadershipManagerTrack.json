@@ -4,7 +4,7 @@
     "description": "Develops expertise in server side engineering",
     "milestones": [{
       "points": 1.5,
-      "summary": "M1",
+      "summary": "Engineering Manager - M1",
       "signals": [
         "Ensures team engagement by incorporating ideas from the team",
         "Mentorship - ability to successfully transfer knowledge --> Mentorship - you ensure knowledge transfer is happening in your team and there's no bus factor",
@@ -25,7 +25,7 @@
     },
     {
       "points": 4.5,
-      "summary": "M2",
+      "summary": "Senior Engineering Manager - M2",
       "signals": [
         "Fosters collaboration and knowledge sharing between teams",
         "Able to inspire others -->You inspire others, You are a role model to ICs wanting to grow in M track and a role model to M1s in the org",
@@ -46,7 +46,7 @@
     },
     {
       "points": 9,
-      "summary": "M3",
+      "summary": "Director of Engineering - M3",
       "signals": [
         "Ability to communicate and present to stakeholders from different departments ",
         "Strong business acumen"
@@ -59,7 +59,7 @@
     },
     {
       "points": 18,
-      "summary": "M4",
+      "summary": "Senior Director of Engineering - M4",
       "signals": [
         "Takes ownership of decisions made in the organization",
         "Strategic thinking -->  Strategic thinking : You can read the market trends and understand forecoming business requierments and implementing required orgnizational teams to fullfuill them",
@@ -76,19 +76,26 @@
     },
     {
       "points": 30,
-      "summary": "M5",
+      "summary": "VP of Engineering - M5",
       "signals": [
-        ""
+        "Role model in finding the right balance between investment and cost consciousness",
+        "Longterm strategic focus",
+        "Ability to inspire ",
+        "Ability to present to DH Management team in concise manner",
+        "Ability to translate DH strategic objectives to department objectives"
+
       ],
       "examples": [
-        ""
+        "Leads strategic organizational decisions and plans; consistently works at a strategic level, influencing decisions to achieve organizational alignment on major goals",
+        "Build trust across organizations to grow together as a global tech team",
+        "Ensures a high employee engagement across the department "
       ]
     }, {
       "points": 60,
       "summary": "M6",
       "signals": [
-        "Drive for maximizing impact"
-      ],
+        "" 
+     ],
       "examples": [
         ""
       ]

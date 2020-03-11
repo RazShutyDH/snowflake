@@ -27,7 +27,7 @@ class CareerProjector extends React.Component {
         `}
 
         </style>
-        <div className="" >
+        <div>
 
           <div style={{ margin: 'auto', background: 'white', border: 'purple', width:'500px', 'border-radius': '13px', padding: '21px'}}>
             <h1>
@@ -56,25 +56,6 @@ class CareerProjector extends React.Component {
         </div>
       </div>
     );
-    
-    return <label value={this.props.currentTitle} onChange={e => this.props.setTitleFn(e.target.value)}>
-      <style jsx>{`
-        label {
-          font-size: 20px;
-          line-height: 20px;
-          margin-bottom: 20px;
-          min-width: 300px;
-          display: block;
-          margin-left: auto;
-          margin-right: auto;      
-        }
-      `}</style>
-      {titles.map(title => (
-        <option key={title}>
-          {title}
-        </option>
-      ))}
-    </label>
   }
 }
 

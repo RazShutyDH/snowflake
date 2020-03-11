@@ -4,7 +4,7 @@
     "description": "...",
     "milestones": [{
       "points": 1,
-      "summary": "...",
+      "summary": "Engineer I - IC1",
       "signals": [
         "Aims to write code with testability, readability, edge cases and errors in mind",
         "Understands the basics of debugging and the tools used for it",
@@ -19,7 +19,7 @@
       ]
     }, {
       "points": 3, 
-      "summary": "...",
+      "summary": "Engineer II - IC2",
       "signals": [
         "Able to work in agile development methodology using continuous integration tools for development and deployments; knowledge and familiarity of all stages of deployment",
         "Able to write concise code and make effective use of language idioms",
@@ -38,7 +38,7 @@
       ]
     }, {
       "points": 6,
-      "summary": "...",
+      "summary": "Senior Engineer I - IC3",
       "signals": [
         "Good understanding and independent application of cloud environment, CI/CD, testing and validation (Able to release new feature end to end with high quality, obserable on production)",
         "Independently applies design patterns and best practices in reliability management (resiliency, autoscaling, monitoring, alerting)",
@@ -52,7 +52,7 @@
       ]
     }, {
       "points": 12,
-      "summary": "...",
+      "summary": "Senior Engineer II - IC4",
       "signals": [
         "Promotes and guides cross-team initiatives to improve the system",
         "Deep understanding of design patterns and best practices in relevant technologies like cloud environments, CI/CD, testing (Able change the deployment process to improve on efficiency and quality of features and services to production)"
@@ -63,7 +63,7 @@
       ]
     }, {
       "points": 20,
-      "summary": "...",
+      "summary": "Principal Engineer - IC5",
       "signals": [
         "Respected as a top techncal person across teams",
         "Deeply specialized in at least one field"
@@ -73,7 +73,7 @@
       ]
     }, {
       "points": 40,
-      "summary": "...",
+      "summary": "Senior Principal Engineer - IC6",
       "signals": [
         "Sees the big picture, helps to evolve the system globally as a whole and builds an architecture for scale and fast iterative delivery",
         "Driven to solve the most complex issues through elegant, scalable and easy to maintain solutions"

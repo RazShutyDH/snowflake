@@ -1,10 +1,10 @@
 {
     "displayName": "Execution - IC",
     "category": "Execution",
-    "description": "...",
+    "description": "The best idea in the world is worthless without great execution. Delivering great software products in teams requires rallying people behind an idea, strong technical leadership throughout the project, a focus on quality, and excellent communication to keep everyone aligned.",
     "milestones": [{
       "points": 1.5,
-      "summary": "...",
+      "summary": "Engineer I - IC1",
       "signals": [
         "Understands their team's practices and processes",
         "Understands basic utility of the product",
@@ -16,7 +16,7 @@
     },
     {
       "points": 4.5,
-      "summary": "...",
+      "summary": "Engineer II - IC2",
       "signals": [
         "Problem solving mindset",
         "Understands priority and urgency and delivers upon them accordingly"
@@ -27,7 +27,7 @@
     },
     {
       "points": 9,
-      "summary": "...",
+      "summary": "Senior Engineer I - IC3",
       "signals": [
         "Understands business drivers and strategic needs for features and is able to analyse, understand and satisfy constraints in the context of the business' vertical",
         "Collaborates with PMs and business stakeholders to define product directions, technology directions, budget trends and resourcing needs",
@@ -43,7 +43,7 @@
     },
     {
       "points": 18,
-      "summary": "...",
+      "summary": "Senior Engineer II - IC4",
       "signals": [
         "Strives for simplification of systems and processes to ensure fast and reliable delivery of our products",
         "Proactivley discusses with PM and business stakeholders to define directions, technolegy to improve budget and resorcing needs",
@@ -55,7 +55,7 @@
     },
     {
       "points": 30,
-      "summary": "...",
+      "summary": "Principal Engineer - IC5",
       "signals": [
         "Takes ownership and responsibility for organizational practices and processes and their continuous improvement"
       ],
@@ -64,7 +64,7 @@
       ]
     }, {
       "points": 60,
-      "summary": "...",
+      "summary": "Senior Principal Engineer - IC6",
       "signals": [
         "Drive for maximizing impact"
       ],

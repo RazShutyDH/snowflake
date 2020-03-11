@@ -4,7 +4,7 @@
     "description": "Supports the emotional well-being of group members in difficult times, and celebrates their successes",
     "milestones": [{
       "points": 1,
-      "summary": "IC1",
+      "summary": "Engineer I - IC1",
       "signals": [
         "Understand the vision and KPIs of your Squad"
       ],
@@ -13,7 +13,7 @@
       ]
     }, {
       "points": 3,
-      "summary": "IC2",
+      "summary": "Engineer II - IC2",
       "signals": [
         "Understands the vision and business KPIs of you Tribe, and drive your Squads KPIs to complition"
       ],
@@ -22,7 +22,7 @@
       ]
     }, {
       "points": 6,
-      "summary": "IC3",
+      "summary": "Senior Engineer I - IC3",
       "signals": [
         "Mentorship: ability to successfully transfer knowledge",
         "Able to nagotiate with PM motivation for techincal tasks and drive them to complition"
@@ -34,7 +34,7 @@
       ]
     }, {
       "points": 12,
-      "summary": "IC4",
+      "summary": "Senior Engineer II - IC4",
       "signals": [
         "Fosters a culture of documentation and knowledge sharing across the organization and actively demonstrates these behaviors",
         "Fosters collaboration and knowledge sharing between teams",
@@ -46,7 +46,7 @@
       ]
     }, {
       "points": 20,
-      "summary": "IC5",
+      "summary": "Principal Engineer - IC5",
       "signals": [
         "Raises awareness of engineering achievements and challenges to group management (Presenrting achievements of the team and the motivation in all-hands or company wide tech-talks)",
         "Helps represent DH externally to attract talent --> The work/blogs/events and respect you have in the tech community attracts talented people to choose to join DH",
@@ -61,7 +61,7 @@
       ]
     }, {
       "points": 40,
-      "summary": "IC6",
+      "summary": "Senior Principal Engineer - IC6",
       "signals": [
         "Able to lead engineers across teams without formal authority",
         "Helps attract top talent (IC5+)",
