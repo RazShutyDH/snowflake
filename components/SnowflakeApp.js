@@ -2,6 +2,7 @@
 
 import TrackSelector from '../components/TrackSelector'
 import TitleSelector from '../components/TitleSelector'
+import CareerProjector from '../components/CareerProjector'
 import NightingaleChart from '../components/NightingaleChart'
 import KeyboardListener from '../components/KeyboardListener'
 import Track from '../components/Track'
@@ -94,10 +95,6 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
           name={this.state.name}
           setNameFn={(name) => this.setState({name})}
         />
-        <TitleSelector
-            milestoneByTrack={this.state.milestoneByTrack}
-            currentTitle={this.state.title}
-            setTitleFn={(title) => this.setTitle(title)} />
 
         <TrackSelector
             milestoneByTrack={this.state.milestoneByTrack}
@@ -126,6 +123,10 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
 
        </div>
        <div>
+        <CareerProjector
+              milestoneByTrack={this.state.milestoneByTrack}
+              currentTitle={this.state.title}
+              setTitleFn={(title) => this.setTitle(title)} />
        </div>
 
        </div>

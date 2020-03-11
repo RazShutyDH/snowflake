@@ -73,12 +73,20 @@ type Tracks = {|
   'EXECUTION_MANAGEMENT': Tracks,
   'LEADERSHIP': Tracks,
   'PERSONAL_EXCELLENCE': Tracks,
-  'TECHNICAL_EXCELLENCE': Tracks,
-  'TECHNICAL_MANAGEMENT' : Tracks, 
-  'EXECUTION_MANAGEMENT' : Tracks, 
-  'LEADERSHIP_MANAGEMENT' : Tracks, 
-  'PERSONAL_MANAGEMENT': Tracks,
+
   |}
+
+  type ExecTracks = {|
+    'EXECUTION': Tracks,
+    'EXECUTION_MANAGEMENT': Tracks,
+    'LEADERSHIP': Tracks,
+    'PERSONAL_EXCELLENCE': Tracks,
+    'TECHNICAL_EXCELLENCE': Tracks,
+    'TECHNICAL_MANAGEMENT' : Tracks, 
+    'EXECUTION_MANAGEMENT' : Tracks, 
+    'LEADERSHIP_MANAGEMENT' : Tracks, 
+    'PERSONAL_MANAGEMENT': Tracks,
+    |}
 
 export const tracks: Tracks = {
                                TECHNICAL_MANAGEMENT, TECHNICAL_EXCELLENCE, EXECUTION_MANAGEMENT, EXECUTION,
