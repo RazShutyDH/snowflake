@@ -18,7 +18,7 @@
       "points": 4.5,
       "summary": "Engineer II - IC2",
       "signals": [
-        "Problem solving mindset",
+        "Problem-solving mindset",
         "Understands priority and urgency and delivers upon them accordingly"
       ],
       "examples": [
@@ -29,15 +29,15 @@
       "points": 9,
       "summary": "Senior Engineer I - IC3",
       "signals": [
-        "Understands business drivers and strategic needs for features and is able to analyse, understand and satisfy constraints in the context of the business' vertical",
-        "Collaborates with PMs and business stakeholders to define product directions, technology directions, budget trends and resourcing needs",
-        "Able to evaluate effort, risks and dependencies of tasks",
+        "Understands business drivers and strategic needs for features and is able to analyze, understand and satisfy constraints in the context of the business' vertical",
+        "Collaborates with PMs and business stakeholders to define product directions, technology directions, budget trends, and resourcing needs",
+        "Able to evaluate effort, risks, and dependencies of tasks",
         "Pragmatism, enables a culture focused on pragmatic solutions",
-        "Able to decrypt unclear stakeholder requirements and drives for clarity to ensure right problem is addressed"
+        "Able to decrypt unclear stakeholder requirements and drives for clarity to ensure the right problem is addressed"
       ],
       "examples": [
         "Continuously improves agile product delivery methods in the team",
-        "Participates in interview process for other engineers",
+        "Participates in the interview process for other engineers",
         "Takes end to end ownership of the development and operation of complete features"
       ]
     },
@@ -46,8 +46,8 @@
       "summary": "Senior Engineer II - IC4",
       "signals": [
         "Strives for simplification of systems and processes to ensure fast and reliable delivery of our products",
-        "Proactivley discusses with PM and business stakeholders to define directions, technolegy to improve budget and resorcing needs",
-        "Implements and ensures best countious improving practices like RCAs faciliation and retrospectives"
+        "Proactively discusses with PM and business stakeholders to define directions, technology to improve budget and resourcing needs",
+        "Implements and ensures best continuous improving practices like RCAs facilitation and retrospectives"
       ],
       "examples": [
         " "
@@ -70,7 +70,8 @@
       ],
       "examples": [
         "You lead e2e migration to new tech stacks/service and you become an expert in that field while doing so",
-        "You solve problems that spanns across tribes (deployment ci/cd for example, performance issues)"
+        "You solve problems that span across tribes (deployment ci/cd, for example, performance issues)"
       ]
     }]
   }
+
