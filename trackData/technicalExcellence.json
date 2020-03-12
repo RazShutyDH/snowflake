@@ -11,7 +11,7 @@
         "Understands the importance of security",
         "Basic understanding of their team's domain",
         "Basic understanding of CI/CD",
-        "Can take ownership of well specified component"
+        "Can take ownership of well-specified component"
       ],
       "examples": [
         "Designs basic functions with an awareness of overall service architecture, avoiding duplication across codebases and interface-breaking changes",
@@ -40,14 +40,14 @@
       "points": 6,
       "summary": "Senior Engineer I - IC3",
       "signals": [
-        "Good understanding and independent application of cloud environment, CI/CD, testing and validation (Able to release new feature end to end with high quality, obserable on production)",
+        "Good understanding and independent application of cloud environment, CI/CD, testing and validation (Able to release new feature end to end with high quality, observable on production)",
         "Independently applies design patterns and best practices in reliability management (resiliency, autoscaling, monitoring, alerting)",
         "Deep understanding of service-oriented and microservices architectural patterns, troubleshooting methods and best practices"
       ],
       "examples": [
         "Proactively makes suggestions for how the team can leverage new technologies and architectures to improve the platform",
         "Continuously builds and improves services",
-        "Proactivley reviews the design patterns / architecture of the Squad",
+        "Proactively reviews the design patterns/architecture of the Squad",
         "True customer mindset in every solution delivered"
       ]
     }, {
@@ -65,11 +65,11 @@
       "points": 20,
       "summary": "Principal Engineer - IC5",
       "signals": [
-        "Respected as a top techncal person across teams",
+        "Respected as a top technical person across teams",
         "Deeply specialized in at least one field"
       ],
       "examples": [
-        "Contributes to Open Source projects used company wide to modify 3rd party solution. to fit company needs"
+        "Contributes to Open Source projects used company-wide to modify 3rd party solution. to fit company needs"
       ]
     }, {
       "points": 40,
