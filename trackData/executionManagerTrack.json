@@ -1,5 +1,5 @@
 {
-    "displayName": "Execution - Managment",
+    "displayName": "Execution - Management",
     "category": "Execution",
     "description": "The best idea in the world is worthless without great execution. Delivering great software products in teams requires rallying people behind an idea, strong technical leadership throughout the project, a focus on quality, and excellent communication to keep everyone aligned.",
     "milestones": [{
@@ -9,11 +9,11 @@
         "Aligns with other teams on project scope, domain and boundaries",
         "Analyzes and identifies possible project delays and reports to stakeholders",
         "Takes ownership and responsibility for organizational practices and processes and their continuous improvement",
-        "Able to decrypt unclear stakeholder requirements and drives for clarity to ensure right problem is addressed"
+        "Able to decrypt unclear stakeholder requirements and drives for clarity to ensure the right problem is addressed"
        ],
       "examples": [
         "Tasks prioritization together with product and business, focusing on creating value",
-        "Reviews epics and projects critically and ensures they are appropriately broken down, prioritised and well understood by the team"
+        "Reviews epics and projects critically and ensures they are appropriately broken down, prioritized and well understood by the team"
       ]
     },
     {
@@ -55,7 +55,7 @@
         "Ensures goals are understood and continuously worked towards across the organization",
         "Often helps refine roadmaps across teams based on technical strategy & constraints",
         "Collaborates with entity teams to solve problems at a global scale",
-        "Improves operational excellence accross the organziation"      
+        "Improves operational excellence across the organization"      
 
       ]
     },
@@ -65,7 +65,7 @@
       "signals": [
         "Understands and implements DH operating principles",
         "Seen as a trusted partner to the business to deliver solutions on time, with highest quality & flexibility at low costs",
-        "Consistently works across the organization to enable teams to support each other; ensures that credit is shared and given where due",
+        "Consistently works across the organization to enable teams to support each other; ensures that credit is shared and given were due",
         "Actively seeks to create or redefine roadmaps across the organization with product & business counterparts ",
         "Thorough understanding of the entire business, including individual domains and how they contribute to overall business strategy"
       ],
@@ -83,3 +83,4 @@
       ]
     }]
   }
+
