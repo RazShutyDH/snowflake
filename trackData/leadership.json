@@ -15,7 +15,7 @@
       "points": 3,
       "summary": "Engineer II - IC2",
       "signals": [
-        "Understands the vision and business KPIs of you Tribe, and drive your Squads KPIs to complition"
+        "Understands the vision and business KPIs of you Tribe, and drive your Squads KPIs to completion"
       ],
       "examples": [
         ""
@@ -24,8 +24,8 @@
       "points": 6,
       "summary": "Senior Engineer I - IC3",
       "signals": [
-        "Mentorship: ability to successfully transfer knowledge",
-        "Able to nagotiate with PM motivation for techincal tasks and drive them to complition"
+        "Mentorship: the ability to successfully transfer knowledge",
+        "Able to negotiate with PM motivation for technical tasks and drive them to completion"
       ],
       "examples": [
         "You resolve technical conflicts within the Squad based on logical reasoning ",
@@ -48,16 +48,16 @@
       "points": 20,
       "summary": "Principal Engineer - IC5",
       "signals": [
-        "Raises awareness of engineering achievements and challenges to group management (Presenrting achievements of the team and the motivation in all-hands or company wide tech-talks)",
-        "Helps represent DH externally to attract talent --> The work/blogs/events and respect you have in the tech community attracts talented people to choose to join DH",
-        "Thinks backwards from the customer --> You put the customers/users first you proactivley come up with idaes to improve their lives",
-        "Continuously challenges status quo"
+        "Raises awareness of engineering achievements and challenges to group management (Presenting achievements of the team and the motivation in all-hands or company-wide tech-talks)",
+        "Help represent DH externally to attract talent --> The work/blogs/events and respect you have in the tech community attracts talented people to choose to join DH",
+        "Thinks backward from the customer --> You put the customers/users first you proactively come up with ideas to improve their lives",
+        "Continuously challenges the status quo"
 
       ],
       "examples": [
-        "You dig deeper into incidentes and you solve recurring issues from the root-cause and own it ",
+        "You dig deeper into incidents and you solve recurring issues from the root-cause and own it ",
         "You understand the team's tech stack limitations and you can foresee and come up with better solutions/infra solutions according to expected growth ",
-        "You see bottlenecks in the technical and you proactivley find ways to change/inspire people to follow"
+        "You see bottlenecks in the technical and you proactively find ways to change/inspire people to follow"
       ]
     }, {
       "points": 40,
@@ -65,7 +65,7 @@
       "signals": [
         "Able to lead engineers across teams without formal authority",
         "Helps attract top talent (IC5+)",
-        "Global knowledge sharing, proactively helps teams across the world to get better",
+        "Global knowledge sharing proactively helps teams across the world to get better",
         "Strong interviewing skills and ability to attract and excite the best candidates --> You interview IC5+ people and can assess properly their skillset and hire the best people available  ",
         "You coach and train interviewers on how to interview IC3+ candidates and you create new evaluation process for different levels"
       ],
