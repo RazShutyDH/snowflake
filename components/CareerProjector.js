@@ -43,14 +43,14 @@ class CareerProjector extends React.Component {
               Skillset Projection:
             </h1>
             
-            <p value={this.props.currentTitle} onChange={e => this.props.setTitleFn(e.target.value)}>
+            <h2 value={this.props.currentTitle} onChange={e => this.props.setTitleFn(e.target.value)}> 
 
             {titles.map(title => (
               <option key={title}>
                 {title}
               </option>
             ))}
-            </p>
+            </h2>
             
           </div>
         </div>
