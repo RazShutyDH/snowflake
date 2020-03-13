@@ -20,7 +20,7 @@ export const emptyState = (): SnowflakeAppState => {
 export const defaultState = (): SnowflakeAppState => {
     return {
         name: '',
-        title: 'Junior Software Engineer',
+        title: 'Software Engineer - IC1',
         milestoneByTrack: {
             'LEADERSHIP': 0,
             'EXECUTION': 0,
