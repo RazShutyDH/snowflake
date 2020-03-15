@@ -1,9 +1,9 @@
 {
     "displayName": "Execution - Management",
-    "category": "Execution",
+    "category": "Management",
     "description": "The best idea in the world is worthless without great execution. Delivering great software products in teams requires rallying people behind an idea, strong technical leadership throughout the project, a focus on quality, and excellent communication to keep everyone aligned.",
     "milestones": [{
-      "points": 1.5,
+      "points": 4.5,
       "summary": "Engineering Manager - M1",
       "signals": [
         "Aligns with other teams on project scope, domain and boundaries",
@@ -17,7 +17,7 @@
       ]
     },
     {
-      "points": 4.5,
+      "points": 9,
       "summary": "Senior Engineering Manager - M2",
       "signals": [
         "Often helps refine roadmaps across teams based on technical strategy & constraints",
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "points": 9,
+      "points": 18,
       "summary": "Director of Engineering - M3",
       "signals": [
         "Ensures the team follows best practices and procedures to deliver global solutions",
@@ -43,7 +43,7 @@
     ]
     },
     {
-      "points": 18,
+      "points": 36,
       "summary": "Senior Director of Engineering - M4",
       "signals": [
         "Typically budget owner",
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "points": 30,
+      "points": 60,
       "summary": "VP of Engineering - M5",
       "signals": [
         "Understands and implements DH operating principles",
@@ -73,7 +73,7 @@
         "Manages teams across regions and evolves collaborations at a global scale"
       ]
     }, {
-      "points": 60,
+      "points": 120,
       "summary": "M6",
       "signals": [
         ""

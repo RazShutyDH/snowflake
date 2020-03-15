@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react'
-import { MtrackIds, tracks, categoryColorScale } from '../constants'
+import { ICtrackIds, tracks, categoryColorScale } from '../constants'
 import type { MilestoneMap, TrackId } from '../constants'
 
 type Props = {
@@ -10,7 +10,7 @@ type Props = {
   setFocusedTrackIdFn: (TrackId) => void
 }
 
-class TrackSelector extends React.Component<Props> {
+class MTrackSelector extends React.Component<Props> {
   render() {
     console.log(this.props.milestoneByTrack)
     return (
@@ -34,7 +34,7 @@ class TrackSelector extends React.Component<Props> {
           }
           .track-selector-value {
             line-height: 35px;
-            width: 150px;
+            width: 1500px;
             text-align: center;
             background: white;
             font-weight: bold;
@@ -47,33 +47,16 @@ class TrackSelector extends React.Component<Props> {
             font-size: 11px;
           }
         `}</style>
-        <thead>
-          <tr>
-              <th>
-                Technical Excellence
-              </th>
-              <th>
-                Execution
-              </th>
-              <th>
-                Leadership
-              </th>
-              <th>
-                Personal Excellence
-              </th>
-          </tr>
-        </thead>
-        <br></br>
         <tbody>
           <tr>
-            {MtrackIds.map(trackId => (
+            {ICtrackIds.map(trackId => (
               <td key={trackId} className="track-selector-label" onClick={() => this.props.setFocusedTrackIdFn(trackId)}>
                 {tracks[trackId].displayName}
               </td>
             ))}
           </tr>
           <tr>
-            {MtrackIds.map(trackId => (
+            {ICtrackIds.map(trackId => (
               <td key={trackId} className="track-selector-value"
                   style={{border: '4px solid ' + (trackId == this.props.focusedTrackId ? '#000': categoryColorScale(tracks[trackId].category)), background: categoryColorScale(tracks[trackId].category)}}
                   onClick={() => this.props.setFocusedTrackIdFn(trackId)}>
@@ -87,4 +70,4 @@ class TrackSelector extends React.Component<Props> {
   }
 }
 
-export default TrackSelector
+export default MTrackSelector

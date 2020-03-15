@@ -1,9 +1,9 @@
 {
-    "displayName": "Leadership - Managment",
-    "category": "Leadership",
+    "displayName": "Leadership - Management",
+    "category": "Management",
     "description": "Develops expertise in server side engineering",
     "milestones": [{
-      "points": 1.5,
+      "points": 4.5,
       "summary": "Engineering Manager - M1",
       "signals": [
         "Ensures team engagement by incorporating ideas from the team",
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "points": 4.5,
+      "points": 9,
       "summary": "Senior Engineering Manager - M2",
       "signals": [
         "Fosters collaboration and knowledge sharing between teams",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "points": 9,
+      "points": 18,
       "summary": "Director of Engineering - M3",
       "signals": [
         "Ability to communicate and present to stakeholders from different departments ",
@@ -58,7 +58,7 @@
     ]
     },
     {
-      "points": 18,
+      "points": 36,
       "summary": "Senior Director of Engineering - M4",
       "signals": [
         "Takes ownership of decisions made in the organization",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "points": 30,
+      "points": 60,
       "summary": "VP of Engineering - M5",
       "signals": [
         "Role model in finding the right balance between investment and cost-consciousness",
@@ -91,7 +91,7 @@
         "Ensures a high employee engagement across the department "
       ]
     }, {
-      "points": 60,
+      "points": 120,
       "summary": "M6",
       "signals": [
         "" 

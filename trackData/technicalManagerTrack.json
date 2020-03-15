@@ -1,9 +1,9 @@
 {
-    "displayName": "Technical Excellence - Managment",
-    "category": "Technical Excellence",
+    "displayName": "Technical Excellence - Management",
+    "category": "Management",
     "description": "Develops expertise in server side engineering",
     "milestones": [{
-      "points": 1.5,
+      "points": 4.5,
       "summary": "Engineering Manager - M1",
       "signals": [
         "Ensures quality, performance, monitoring, alerting and security using best practices",
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "points": 4.5,
+      "points": 9,
       "summary": "Senior Engineering Manager - M2",
       "signals": [
         "Deep understanding of cloud environment, CI/CD, testing, validation", 
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "points": 9,
+      "points": 18,
       "summary": "Director of Engineering - M3",
       "signals": [
         "Proactively ensures the highest levels of systems and infrastructure availability across the group"
@@ -37,7 +37,7 @@
     ]
     },
     {
-      "points": 18,
+      "points": 36,
       "summary": "Senior Director of Engineering - M4",
       "signals": [
        "Defines and evolves architecture of the system as a whole"
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "points": 30,
+      "points": 60,
       "summary": "VP of Engineering - M5",
       "signals": [
         ""
@@ -57,7 +57,7 @@
         ""
       ]
     }, {
-      "points": 60,
+      "points": 120,
       "summary": "M6",
       "signals": [
         "Drive for maximizing impact"
