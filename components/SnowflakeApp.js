@@ -47,6 +47,46 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
     document.querySelector('.name-input').value = '';
   }
   
+  handleClicExport() {
+    
+    const headers = ["skillset projection"];
+    const rows = [eligibleTitles(this.state.milestoneByTrack).toString().split(',').join(' ')];
+
+    var headersAndValues = JSON.stringify(this.state.milestoneByTrack).replace(/\"/g,'').replace('}','').replace('{','').split(",");
+    
+    headersAndValues.forEach(element => {
+      const csvData = element.split(":");
+      headers.push(csvData[0]);
+      rows.push(csvData[1]);
+    });
+    
+ 
+    const csvCon = [
+      headers,
+      rows
+    ];
+    
+    let csvContent = "data:text/csv;charset=utf-8," 
+    + csvCon.map(e => e.join(",")).join("\n");
+      
+    
+    var encodedUri = encodeURI(csvContent);
+    var link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    
+    
+    link.setAttribute("download", this.state.name+"PerformanceReview.csv");
+    
+    //link.setAttribute("download", "my_data.csv");
+    
+    
+    document.body.appendChild(link); // Required for FF
+    
+    link.click(); // This will download the data file named "my_data.csv".
+    
+    
+  }
+  
   
   render() {
     return (
@@ -125,7 +165,10 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
       milestoneByTrack={this.state.milestoneByTrack}
       focusedTrackId={this.state.focusedTrackId}
       handleTrackMilestoneChangeFn={(track, milestone) => this.handleTrackMilestoneChange(track, milestone)} />
-      
+      <div>
+       <button className="btn btn-default" onClick={this.handleClicExport.bind(this)}>Export to CSV</button>
+       <button className="btn btn-default" onClick={this.handleClickNew.bind(this)}>reset snowflake</button>
+      </div>
       </div>
       <div>
       <CareerProjector
@@ -140,7 +183,6 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
       Made with ❤️ by <a href="https://medium.engineering" target="_blank">Medium Eng</a>.
       Changes and adaptation by <a href="https://deliveryhero.com" target="_blank">Delivery Hero</a>. 
       </div>
-      <button className="btn btn-default" onClick={this.handleClickNew.bind(this)}>reset snowflake</button>
       </div>
       <br></br>
       <br></br>

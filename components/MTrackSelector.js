@@ -12,7 +12,6 @@ type Props = {
 
 class MTrackSelector extends React.Component<Props> {
   render() {
-    console.log(this.props.milestoneByTrack)
     return (
       <table>
         <style jsx>{`
