@@ -6,27 +6,35 @@
       "points": 1,
       "summary": "Engineer I - IC1",
       "signals": [
-        "Understand the vision and KPIs of your Squad"
+        "Understand the vision and KPIs of your Squad and help deliver them",
+        "You understand which technical difficulties you should explore by yourself and which (or when) you should involve a Senior staff member to help"
       ],
       "examples": [
-        ""
+        "Proactively give feedback about the onboarding process to help the growth of all members in our department",
+        "Communicate proactively both to your mentors and PMs, provide them with the information they need to help you grow"
       ]
     }, {
       "points": 3,
       "summary": "Engineer II - IC2",
       "signals": [
-        "Understands the vision and business KPIs of you Tribe, and drive your Squads KPIs to completion"
-      ],
+        "Understands the vision and business KPIs of your Tribe, and drive your Squads KPIs to completion",
+        "You take an active role in onboarding new team members, and you enable them to understand the scope of what is done and help them deliver ",
+        "You take ownership. This includes owning your successes as well as your failures."
+              ],
       "examples": [
-        ""
+        "You lead by example, you follow the guidelines of your team, whether it’s code reviews, deployment procedure, and on-call procedures",
+        "You proactively provides feedback on how to improve team processes and engineering implementation"
       ]
     }, {
       "points": 6,
       "summary": "Senior Engineer I - IC3",
       "signals": [
-        "Mentorship: the ability to successfully transfer knowledge",
-        "Able to negotiate with PM motivation for technical tasks and drive them to completion"
-      ],
+        "Mentorship - ability to successfully transfer knowledge",
+        "Able to handle pressure and resolve conflicts",
+        "Able to negotiate with PM motivation for technical tasks and drive them to completion",
+        "You help people! when people are stuck, you help them resolve issues and progress",
+        "You understand the scope and timeline of the project/product you work on and constructively voice your opinion when things aren’t going in the right direction or things aren’t done right"
+              ],
       "examples": [
         "You resolve technical conflicts within the Squad based on logical reasoning ",
         "Mentors IC1/IC2 engineers",
@@ -39,6 +47,7 @@
         "Fosters a culture of documentation and knowledge sharing across the organization and actively demonstrates these behaviors",
         "Fosters collaboration and knowledge sharing between teams",
         "Proactive role in attracting strong talent",
+        "You are able to influence those around you without any form of reporting line or official people managing authority",
         "Strong customer focus"
       ],
       "examples": [
